@@ -67,7 +67,10 @@ public class Test {
 		}else {
 			System.out.println("News is InValid");
 		}
-		
+
+//Step5: Close the window
+		driver.quit();
+
 	}
 
 }
